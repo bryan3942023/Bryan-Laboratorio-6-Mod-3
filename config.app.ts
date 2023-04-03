@@ -8,4 +8,4 @@ export const TESTDATA = {
 }
 
 
-console.log(process.env);
+//console.log(process.env);
