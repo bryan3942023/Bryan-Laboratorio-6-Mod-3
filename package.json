@@ -1,0 +1,23 @@
+{
+  "name": "bryan-laboratorio-6-mod-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.0",
+    "@types/chai": "^4.3.4",
+
+    "chai": "^4.3.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "playwright":"^1.31.1"
+  }
+}
