@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^9.1.0",
+    "@cucumber/cucumber": "^8.11.1",
     "@types/chai": "^4.3.4",
     "allure-cucumberjs": "^2.1.0",
     "allure-js-commons": "^2.1.0",

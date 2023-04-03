@@ -3,9 +3,9 @@ module.exports = {
     //   parallel: 2,
       //format: ['html:cucumber-report.html'],
       format: [
-        'html:cucumber-report.html',
+      //  'html:cucumber-report.html',
         'progress-bar',
-       // './reporter.ts',
+        './reporter.ts',
       ],
       paths: [
         './tests/features/**/*.feature'
