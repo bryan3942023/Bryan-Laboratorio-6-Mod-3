@@ -12,3 +12,6 @@ export class Projects {
     }
 }
 
+
+//const respp = Projects.getProjects();
+//console.log(respp);

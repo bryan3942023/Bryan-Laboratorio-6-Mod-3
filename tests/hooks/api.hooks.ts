@@ -5,8 +5,8 @@ import { Projects } from "../../src/core/api/todoist-requests/projects";
 
 Before({name: 'Before API Hook', tags: '@api-tests'},async function() {
     //new HttpRequest();
-    // const respp = await Projects.getProjects();
-    // console.log(respp.data);
+     const respp = await Projects.getProjects();
+     console.log(respp.data);
 });
 
 After({name: 'Delete Project', tags: '@delete-project-api'},async function(this: CustomWorld) {
