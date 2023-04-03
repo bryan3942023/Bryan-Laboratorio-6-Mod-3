@@ -23,4 +23,17 @@ export class ElementActions {
         await driverInstance.Page.waitForSelector(locator);
         return await driverInstance.Page.innerText(locator);
     }
+
+
+    static async ClickText(locator: string) {
+        await driverInstance.Page.waitForSelector(locator);
+        await driverInstance.Page.click(locator);
+    }
+    
+
+    static async setColor(locator: string, text: string): Promise<void> {
+        await driverInstance.Page.waitForSelector(locator);
+        await driverInstance.Page.click(locator);
+        await driverInstance.Page.click(text);
+    }
 }

@@ -1,6 +1,7 @@
 import { Given, Then } from "@cucumber/cucumber";
 import { expect } from "chai";
 import { Context } from "../../cucumber.config";
+import { driverInstance } from "../../src/core/driver";
 import { verticalMenu } from "../../src/pages/components/vertical-menu.page";
 
 Given('the user hovers the mouse on Projects label on the Vertical Menu', async function () {    
@@ -9,6 +10,7 @@ Given('the user hovers the mouse on Projects label on the Vertical Menu', async 
 
 Given('the user clicks the Add Project Icon on the Vertical Menu', async function () {    
     await verticalMenu.clickAddProject();    
+    //await driverInstance.Page.waitForTimeout(5000);
 });
 
 Then('the user should see the New Project on the Vertical Menu', async function (this: Context) {
